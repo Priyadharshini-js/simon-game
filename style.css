@@ -1,0 +1,42 @@
+body {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #011f3f;
+  color: #fef2bf;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.button-green {
+  background-color: green;
+}
+.button-red {
+  background-color: red;
+}
+.button-yellow {
+  background-color: yellow;
+}
+.button-blue {
+  background-color: blue;
+}
+
+.title-line {
+  font-size: 42px;
+  margin: 5% 0;
+}
+
+.four-buttons button,
+.four-buttons button:focus-visible {
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  border-radius: 20px;
+  border: 8px solid black;
+  outline: unset;
+}
+.four-buttons button.active {
+  opacity: 0.5;
+}
